@@ -34,5 +34,5 @@ if __name__ == '__main__':
     for k in a_new:
         cl *= k
     print("2)Произведение = ", cl)
-    a.sort()
+    a = tuple(sorted(a, key = abs))
     print(f"3) {a} ")
